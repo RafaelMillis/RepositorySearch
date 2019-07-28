@@ -1,0 +1,31 @@
+﻿
+<div ng-app="myApp" ng-controller="detailsCtrl">
+    <h2>{{name}} Details</h2>
+    <div class="container">
+        <div ng-class="{ 'row': ($index + 1) % 1 == 0 }">
+            <div class="col-md-12 col-xl-12 col-lg-12 rep-movie">
+                <div class="rep-image-frame">
+                    <div><img src="{{image}}" class="medium"></div>
+                </div>
+                <div class="rep-image-details">
+                    <div>
+                        <div class="rep-title">{{name}}</div>
+                        <div><span class="rep-subtitle">Season:</span> {{season}}</div>
+                        <div><span class="rep-subtitle">Views: </span> {{views}}</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    var app = angular.module('myApp', []);
+    app.controller('detailsCtrl', function ($scope, $http, $location) {
+        $scope.id = $location.search().id;
+        $scope.name = $location.search().name;
+        $scope.image = $location.search().img;
+        $scope.season = $location.search().seas;
+        $scope.views = $location.search().view;
+    });
+</script>

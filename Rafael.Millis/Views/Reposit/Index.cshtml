@@ -1,0 +1,33 @@
+﻿
+@{
+    ViewBag.Title = "Search";
+}
+
+<h2>Search a Movie</h2>
+Implemented by the following technologies:on Client MVC.NET, Bootsrap, AngularJS and on Server with .Net Core <br /><br />
+<div ng-app="searchApp" ng-controller="searchCtrl">
+    <input type="text" ng-model="textSearch" ng-keyup="getSearchMoviesResults()" placeholder="Enter search here" autofocus /><br />
+    <br />
+    <select ng-model="selectCategory" ng-options="x.category for x in categories"></select>
+    <br /><br /><br />
+    <div class="container">
+        <div ng-repeat="x in dataResult | filter: textSearch | orderBy: selectCategory.value">
+            <div ng-class="{ 'row': ($index + 1) % 1 == 0 }">
+                <div class="col-md-12 col-xl-12 col-lg-12 rep-movie">
+                    <div class="rep-image-frame rep-text-side">
+                        <div><a id="imgLink" ng-href="/Reposit/details#?id={{x.id}}&name={{x.name}}&seas={{x.season}}&view={{x.views}}&img={{x.image}}"><img src="{{x.image}}" class="thumb"></a></div>
+                    </div>
+                    <div class="rep-image-details">
+                        <div class="rep-image-details-content">
+                            <div class="rep-title" >{{x.name}}</div>
+                            <div><span class="rep-subtitle">Season:</span> {{x.season}}</div>
+                            <div><span class="rep-subtitle">Views: </span> {{x.views}}</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br />
+ </div>
+

@@ -1,0 +1,30 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "name": "movie 1",
+      "image": "/images/see.jpg",
+      "series": "series name 2",
+      "season": 3,
+      "views": 1000
+    },
+    {
+      "id": 2,
+      "name": "movie Romeo & Jolite 2",
+      "image": "/images/highlander.jpg",
+      "series": "series name 1",
+      "season": 2,
+      "views": 2000
+    },
+    {
+      "id": 3,
+      "name": "movie 3",
+      "image": "/images/hobes.jpg",
+      "series": "series name 3",
+      "season": 1,
+      "views": 3000
+    }
+  ]
+}
+
+
