@@ -40,4 +40,3 @@ F:\tmp\angularjs\Repository\Rafael.Millis\Rafael.Millis\obj\Debug\Rafael.Millis.
 F:\tmp\angularjs\Repository\Rafael.Millis\Rafael.Millis\obj\Debug\Rafael.Millis.Movies.Web.csproj.CopyComplete
 F:\tmp\angularjs\Repository\Rafael.Millis\Rafael.Millis\obj\Debug\Rafael.Millis.dll
 F:\tmp\angularjs\Repository\Rafael.Millis\Rafael.Millis\obj\Debug\Rafael.Millis.pdb
-F:\tmp\angularjs\Repository\Rafael.Millis\Rafael.Millis\obj\Debug\Rafael.Millis.Movies.Web.csprojAssemblyReference.cache

@@ -10,6 +10,8 @@ You can run it by pressing F5.
 
 After pressing F5, it will take some time to build and load the project.
 
+Then at the movie search box, enter some letters as "a" in order to make a search.
+
 There are 2 pages:
 	
 	* The first page is : Search 

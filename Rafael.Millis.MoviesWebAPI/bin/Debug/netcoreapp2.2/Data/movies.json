@@ -2,27 +2,27 @@
   "movies": [
     {
       "id": 1,
-      "name": "movie 1",
-      "image": "/images/see.jpg",
-      "series": "series name 2",
+      "name": "The Lion King Movie",
+      "image": "/images/lionking.jpg",
+      "series": "series 3",
       "season": 3,
-      "views": 1000
+      "views": 100000
     },
     {
       "id": 2,
-      "name": "movie Romeo & Jolite 2",
-      "image": "/images/highlander.jpg",
-      "series": "series name 1",
+      "name": "The Matrix Movie",
+      "image": "/images/thematrix.jpg",
+      "series": "series 1",
       "season": 2,
-      "views": 2000
+      "views": 5000000
     },
     {
       "id": 3,
-      "name": "movie 3",
-      "image": "/images/hobes.jpg",
-      "series": "series name 3",
+      "name": "Break Through Movie",
+      "image": "/images/through.jpg",
+      "series": "series 2",
       "season": 1,
-      "views": 3000
+      "views": 30000
     }
   ]
 }

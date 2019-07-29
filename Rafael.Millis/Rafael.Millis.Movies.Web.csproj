@@ -157,9 +157,9 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
-    <Content Include="images\highlander.jpg" />
-    <Content Include="images\hobes.jpg" />
-    <Content Include="images\see.jpg" />
+    <Content Include="images\through.jpg" />
+    <Content Include="images\lionking.jpg" />
+    <Content Include="images\thematrix.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="ApplicationInsights.config">
@@ -170,7 +170,6 @@
     <Content Include="Scripts\repositSearch.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
-    <Content Include="services\config.service.js" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -199,7 +198,6 @@
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="config\config.json" />
     <None Include="packages.config" />
     <Content Include="Views\Reposit\Index.cshtml" />
   </ItemGroup>
